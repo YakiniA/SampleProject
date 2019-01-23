@@ -67,7 +67,7 @@ public class LoginApplication {
 		a.sendKeys(Keys.ENTER);
 		Thread.sleep(1000);
 		a.moveToElement(departure).click().perform();
-
+		// Entering while loop test
 		while (!bookingPage.Month().getText().contains("May")) {
 
 			WebElement nextButton = bookingPage.Next();
